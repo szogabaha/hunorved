@@ -33,6 +33,14 @@ a:hover {
   text-decoration: none;
 }
 
+#dev1 {display: none;}
+#dev2 {display: block;}
+
+@media all and (max-width:767px) {
+  #dev1 {display: block;}
+  #dev2 {display: none;}
+}
+
 .tm-bg-white-alpha {
   background-color: rgba(255, 255, 255, 0.5);
 }
