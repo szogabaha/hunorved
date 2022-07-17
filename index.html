@@ -355,24 +355,25 @@ https://templatemo.com/tm-527-sided
                         <div class="col-md-6 px-0">
                          
                             <div class="tm-contact-form-container">
-                               
                                     <p style="text-align: center;">
                                         Lépjen kapcsolatba velünk!
                                     </p>
                           
-                                <form action="index.html" method="POST" class="tm-contact-form">
+                                <form method="POST" class="tm-contact-form gform" data-email="hunorvedkft@gmail.com"
+                                action="https://script.google.com/macros/s/AKfycbz5BiEoGMeqtDP40ecI6uqQwDvDCa7RoWaJkAmcnhW_KhkgkbUlthg0_7iYNgRnWaXm/exec"
+                                >
                                     <div class="form-group">
-                                        <input type="text" id="contact_name" name="contact_name"
+                                        <input type="text" id="contact_name" name="name"
                                             class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
                                             placeholder="Név" required />
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" id="contact_email" name="contact_email"
+                                        <input type="email" id="contact_email" name="email"
                                             class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
                                             placeholder="Email cím" required />
                                     </div>
                                     <div class="form-group">
-                                        <textarea rows="4" id="contact_message" name="contact_message"
+                                        <textarea rows="4" id="contact_message" name="message"
                                             class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
                                             placeholder="Üzenet" required></textarea>
                                     </div>
@@ -381,6 +382,11 @@ https://templatemo.com/tm-527-sided
                                             Küldés
                                         </button>
                                     </div>
+                                    <div style="display:none; margin-top: 20px;" class="thankyou_message">
+                                        <!-- You can customize the thankyou message by editing the code below -->
+                                        <h8><em>Köszönjük</em> hogy kapcsolatba lépett velünk! Hamarosan válaszolunk a megadott email címre!
+                                        </h8>
+                                       </div>
                                 </form>
                             </div>
                         </div>
@@ -409,6 +415,7 @@ https://templatemo.com/tm-527-sided
 
     </div>
     <!-- /.columns-bg -->
+    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 </body>
 
 </html>
