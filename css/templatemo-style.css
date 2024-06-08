@@ -576,6 +576,8 @@ hr {
   padding: 65px 140px;
 }
 
+.custom-img-container{},
+
 #bg_img_31 {
   background-image: url(../img/forty_image_31.jpg);
   height: 640px;
@@ -657,6 +659,15 @@ hr {
     margin-right: auto;
   }
 
+  .custom-img-container{
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+
+  .tm-img-left-container{
+    padding-right: 75px;
+  }
+
   .tm-social-icon-container {
     margin-right: 10px;
   }
@@ -682,7 +693,6 @@ hr {
     text-align: center;
   }
 
-  .tm-img-left-container,
   .tm-text-left-container {
     padding-right: 15px;
   }
@@ -726,7 +736,7 @@ hr {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .columns-bg {
     background-image: none;
   }
