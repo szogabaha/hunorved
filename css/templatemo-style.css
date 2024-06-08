@@ -258,6 +258,9 @@ p {
 
 .tm-img-right-container {
   padding-left: 0;
+  background-color: #cce5ff;
+  margin-left: -15px;
+  margin-right: 15px;
 }
 
 /* Common style */
@@ -576,7 +579,7 @@ hr {
   padding: 65px 140px;
 }
 
-.custom-img-container{},
+.custom-img-container{}
 
 #bg_img_31 {
   background-image: url(../img/forty_image_31.jpg);
@@ -659,13 +662,20 @@ hr {
     margin-right: auto;
   }
 
-  .custom-img-container{
-    padding-left: 75px;
-    padding-right: 75px;
+  .offset-md-6{
+    margin-left:0%;
+    text-align: center;
   }
 
-  .tm-img-left-container{
-    padding-right: 75px;
+  #applicability-container {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .custom-img-container{
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: auto;
   }
 
   .tm-social-icon-container {
@@ -699,6 +709,10 @@ hr {
 
   .tm-img-right-container {
     padding-left: 15px;
+    padding-right: 15px;
+    max-width: 670px;
+    background-color:transparent;
+    margin: auto;
   }
 
   .tm-section-title-2 {
