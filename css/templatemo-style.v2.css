@@ -547,7 +547,7 @@ figure.effect-duke:hover p {
 }
 
 .btn-primary {
-  background-color: #99ccff;
+  background-color: #78a9db;
   border-color: #003972;
   border-radius: 10px;
 
@@ -557,6 +557,7 @@ figure.effect-duke:hover p {
   background-color: white;
   border-color: white;
   color: #3399ff;
+  font-weight: bold;
 }
 
 .btn-secondary:hover {
@@ -682,20 +683,7 @@ hr {
     justify-content: center;
   }
 
-  #btn-container .btn-primary {
-      background-color: #3698cc;
-      border-color: #003972;
-      border-radius: 10px;
-    
-    }
-
-    #btn-container .btn-primary:hover {
-      background-color: #003972;
-      border-color: #003972;
-      border-radius: 10px;
-    
-    }
-
+  
   .offset-md-6{
     margin-left:0%;
     text-align: center;
