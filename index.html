@@ -14,8 +14,9 @@
     <link rel="stylesheet" href="css/templatemo-style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <title>Hunor-Véd Kft.</title>
+    <!--GDPR  Friendly???-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-234877634-1">
+    <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-234877634-1">
     </script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -23,7 +24,8 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-234877634-1');
-    </script>
+    </script>-->
+    <script src="navigate.js"></script>
 </head>
 <!--
 Sided Template
@@ -63,6 +65,14 @@ https://templatemo.com/tm-527-sided
                                    Alkalmazható:</p>
                             </i>
                             <i class="tm-text-white"> Lakások, irodák-irodaházak, üzletek, raktárak, műhelyek, üzemi területek, óvodák, iskolák, közintézmények fertőtlenítésére</i>
+                        </div>
+                    </div>
+                    <div id="button-container" class="row">
+                        <div class="col text-center">
+                            <button id="prices-btn" type="button" class="btn btn-primary" style="margin-bottom: 20px;">Árak</button>
+                        </div>
+                        <div class="col text-center">
+                            <button id="contact-btn" type="button" class="btn btn-primary">Elérhetőség</button>
                         </div>
                     </div>
                 </div>
@@ -181,7 +191,7 @@ https://templatemo.com/tm-527-sided
             <!-- Előnyök -->
             <section id="gallery">
 
-                <div class="container px-4 py-5" id="icon-grid">
+                <div class="container px-4 py-5">
                     <div class="col-12 tm-section-title-mb tm-gallery-title-col">
                         <h2 class="tm-section-title-2">Előnyök</h2>
                         <hr class="tm-section-title-underline" />
@@ -243,7 +253,7 @@ https://templatemo.com/tm-527-sided
                 </div>
 
 
-                <div class="container px-4 py-5" style="margin-bottom: 20px;" id="icon-grid">
+                <div class="container px-4 py-5" style="margin-bottom: 20px;" id="price-grid">
                     <div class="col-12 tm-section-title-mb tm-gallery-title-col">
                         <h2 class="tm-section-title">Díjak (ÁFA-t nem tartalmazzák)</h2>
                         <hr class="tm-section-title-underline-2" />
@@ -335,11 +345,11 @@ https://templatemo.com/tm-527-sided
                                                 <i class="fas fa-phone tm-contact-icon tm-phone-icon"></i>
                                             </span>
                                         </span>
-                                        <span class="media-body"> +36 30 292 8904 </span>
+                                        <span class="media-body"  style="cursor:default"> +36 30 292 8904 </span>
                                     </a>
                                 </div>
                                 <div class="media mb-5">
-                                    <a class="tm-contact-link">
+                                    <a class="tm-contact-link" href="mailto:hunorvedkft@gmail.com">
                                         <span class="tm-contact-icon-container">
                                             <span class="tm-contact-icon-container-inner">
                                                 <i class="fas fa-envelope tm-contact-icon"></i>
@@ -349,13 +359,13 @@ https://templatemo.com/tm-527-sided
                                     </a>
                                 </div>
                                 <div class="media">
-                                    <a class="tm-contact-link">
+                                    <a class="tm-contact-link" href="https://maps.app.goo.gl/EqSP8heJm8VkD9Z3A" target="_blank">
                                         <span class="tm-contact-icon-container">
                                             <span class="tm-contact-icon-container-inner">
                                                 <i class="fas fa-map-marker-alt tm-contact-icon"></i>
                                             </span>
                                         </span>
-                                        <span class="media-body">
+                                        <span class="media-body" id="location-text">
                                             2119 Pécel<br>Szt. Imre krt. 48/a
                                         </span>
                                     </a>
@@ -386,8 +396,8 @@ https://templatemo.com/tm-527-sided
 
 
     </div>
-    <!-- /.columns-bg -->
-    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+    <!-- /.columns-bg 
+    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>-->
 </body>
 
 </html>

@@ -412,10 +412,14 @@ figure.effect-duke:hover p {
 }
 
 .tm-contact-link {
-  color: #313638;
+  color: #ffffff;
   display: flex;
   align-items: center;
   font-size: 0.8rem;
+}
+
+.tm-contact-link:hover {
+  color: #99ccff;
 }
 
 .tm-contact-icon-container {
@@ -544,7 +548,9 @@ figure.effect-duke:hover p {
 
 .btn-primary {
   background-color: #99ccff;
-  border-color: #99ccff;
+  border-color: #003972;
+  border-radius: 10px;
+
 }
 
 .btn-secondary {
@@ -595,6 +601,13 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+#button-container {
+  width: 45%; 
+  margin-top: 3%;
+  margin-bottom: 3%; 
+  justify-content: center;
 }
 
 .tm-section-icon-container {
@@ -661,6 +674,27 @@ hr {
     margin-left: auto;
     margin-right: auto;
   }
+
+  #button-container {
+    width: 100%; 
+    margin-top: 3%;
+    margin-bottom: 3%; 
+    justify-content: center;
+  }
+
+  #button-container .btn-primary {
+      background-color: #3698cc;
+      border-color: #003972;
+      border-radius: 10px;
+    
+    }
+
+    #button-container .btn-primary:hover {
+      background-color: #003972;
+      border-color: #003972;
+      border-radius: 10px;
+    
+    }
 
   .offset-md-6{
     margin-left:0%;
